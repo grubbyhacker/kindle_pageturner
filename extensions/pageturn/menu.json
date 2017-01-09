@@ -1,0 +1,6 @@
+{
+	"items": [
+	{"name": "Python binary", "action": "./bin/pageturnd.py"}
+	]
+}
+
