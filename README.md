@@ -4,6 +4,8 @@ This is the code I used to implement a remote control "page-turner" for my Kindl
 # Acknowledgements
 I need to give a huge shout out to Marcin Barabasz for his very detailed and inspirational [blog post](https://mbarabasz.wordpress.com/2013/11/20/kindle-remote-page-turner/) detailing how to do this. His instructions enabled me to duplicate what he built and then refine the idea to something that worked best for me. A year after I built my ESP8266 page turner (and used it for that entire year) and finally spent an evening documenting it -  I discovered that Marcin also built an ESP8266 version, documented [here](https://mbarabasz.wordpress.com/2015/04/20/esp8266-kindle-remote-page-turner/). So it turns out I am not only not original with this idea, but my implementation is also not original. Oh well.
 
+This [instructable](http://www.instructables.com/id/Kindle-Web-Remote-Control/) was also instrumental in my build. Although I did not like the cgi-bin solution, it outlines all the major steps and is similarly referenced by Barabasz.
+
 # Architecture
 On the Kindle, you can simluate a physical button press
 
