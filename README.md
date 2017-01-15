@@ -28,6 +28,9 @@ It would be very inconvienent if you had to ssh in to your kindle every time you
 ## Copy KUAL Menu
 The last thing you need to do on the Kindle is copy the extensions directory in this repo to your Kindle documents directory.
 
+# On your network configuration
+In order for the ESP8266 to find the kindle it needs to know its IP address. So use your DHCP settings to give your kindle a static internal IP.
+
 # On the ESP8266
 The short Arduino sketch is pretty self explanatory. There are two inputs, one for each button. This one is built for a SparkFun Thing. 
 ## Shortcommings
