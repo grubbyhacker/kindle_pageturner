@@ -1,6 +1,8 @@
 # ESP8266 Kindle Page Turner
 [![Video of page turner in action](images/youtubelinkimage.png)](http://www.youtube.com/watch?v=Jo5wLgGRHSQ)
+
 This is the code I used to implement a remote control "page-turner" for my Kindle-4. I love to read on e-ink - but I hate the shape, size and controls of my Kindle. My dream was to be able to read my kindle without holding it, with pageturning done from a handheld device. I implemented this using an esp8266 microcontroller mounted inside of an old two-button flight stick. When I squeeze the trigger the esp8266 sends a "forward" command - pressing the "hat" button sends a "back" command. The kindle receives these commands with a little UDP server. I recorded a video of the page turner in action [here](https://youtu.be/Jo5wLgGRHSQ).
+
 ![Image of the modified joystick](images/joystick.jpg)
 # Acknowledgements
 I need to give a huge shout out to Marcin Barabasz for his very detailed and inspirational [blog post](https://mbarabasz.wordpress.com/2013/11/20/kindle-remote-page-turner/) detailing how to do this. His instructions enabled me to duplicate what he built and then refine the idea to something that worked best for me. A year after I built my ESP8266 page turner (and used it for that entire year) and finally spent an evening documenting it -  I discovered that Marcin also built an ESP8266 version, documented [here](https://mbarabasz.wordpress.com/2015/04/20/esp8266-kindle-remote-page-turner/). So it turns out I am not only not original with this idea, but my implementation is also not original. Oh well.
