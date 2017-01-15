@@ -10,7 +10,11 @@ I need to give a huge shout out to Marcin Barabasz for his very detailed and ins
 This [instructable](http://www.instructables.com/id/Kindle-Web-Remote-Control/) was also instrumental in my build. Although I did not like the cgi-bin solution, it outlines all the major steps and is similarly referenced by Barabasz.
 
 # Architecture
-On the Kindle, you can simluate a physical button press
+On the Kindle, you can simluate a physical button press by semding numeric codes to a device file like this:
+```
+$ echo "send 191" > /proc/keypad
+```
+This project has code running on both the kindle, and on an ESP8266 microcontroller. The kindle has a UDP server that listens for commands for forward and back, and it simply launches shell commands that look like the one above. The ESP8266 runs an arduino sketch that sends UDP commands to that server.
 
 # On the Kindle
 ## Get out of jail
